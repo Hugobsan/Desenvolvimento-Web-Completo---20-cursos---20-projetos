@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<body id="tres-colunas" class="home">
+<body class="home">
     <!--Início container-->
     <div id="container">
         <!--Início topo-->
@@ -23,28 +23,80 @@
                 <li><a id="ciencia" href="ciencia.html">Ciência</a></li>
                 <li><a id="fotos" href="fotos.html">Fotos</a></li>
             </ul>
-        </div><!--Fim topo-->
+        </div>
+        <!--Fim topo-->
 
         <!--Início conteudo-->
         <div id="conteudo">
-            <div id="primario">Primario</div>
-            <div id="secundario">Secundário</div>
+            <div id="primario">
+                <div class="caixa destaque">
+                    <h2>Destaque</h2>
+                    <div class="caixa-conteudo">
+                        <h3>Nova legislação para Taxistas</h3>
+                        <img class="imagem-principal" src="img/taxi.jpg" alt="imagem de taxis em cidade" width="100%">
+                        <p>
+                            Taxistas lutam contra a nova legislação que consideram prejudicial aos seus negócios.
+                        </p>
+                        <a href="">Saiba mais...</a>
+                    </div>
+                </div>
+            </div>
+            <div id="secundario">
+                <div class="caixa entrevista">
+                    <h2>Última entrevista</h2>
+                    <div class="caixa-conteudo">
+                        <h3>Entrevista com Arthur Wagner</h3>
+                        <img class="imagem-principal" src="img/doutor.jpg" alt="imagem de taxis em cidade" width="100%">
+                        <p>
+                            Arthur Wagner: um jovem talento empreendedor em busca de sucesso na área de TI.
+                        </p>
+                        <a href="">Saiba mais...</a>
+                    </div>
+                </div>
+            </div>
             <!--Início lateral-->
             <div id="lateral">
                 <div class="caixa">
                     <h2>Entrevistas</h2>
                     <div class="caixa-conteudo">
-                        Conteúdo
+                        <ul>
+                            <li><a href="">Arthur Wagner</a></li>
+                            <li><a href="">Árlen Duarte</a></li>
+                            <li><a href="">Jhon Pibiti</a></li>
+                            <li><a href="">PewDiePie</a></li>
+                            <li><a href="">William Coca-Cola</a></li>
+                            <li><a href="">Silvestre Stalone</a></li>
+                            <li><a href="">Aedes Aegypti</a></li>
+                        </ul>
                     </div>
                 </div>
-            </div><!--Fim lateral-->
-        </div><!--Fim conteudo-->
-        
-    </div><!--Fim container-->
+                <div class="caixa">
+                    <h2>News</h2>
+                    <div class="caixa-conteudo">
+                        <form>
+                            <div>
+                                <label for="email">Email:</label>
+                                <input type="text" name="email" id="email" placeholder="E-mail">
+                            </div>
+                            <div>
+                                <input type="submit" class="submit" value="Cadastrar">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!--Fim lateral-->
+        </div>
+        <!--Fim conteudo-->
+
+    </div>
+    <!--Fim container-->
     <footer id="container-rodape">
         <div id="rodape">
-            &copy; Copyright 2023 Notícias Cidade | By: <a id="github" href="https://github.com/Hugobsan">Hugo Barbosa</a>
+            &copy; Copyright 2023 Notícias Cidade | By: <a id="github" href="https://github.com/Hugobsan">Hugo
+                Barbosa</a>
         </div>
     </footer>
 </body>
+
 </html>
