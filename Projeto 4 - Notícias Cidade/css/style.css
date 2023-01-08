@@ -75,3 +75,43 @@ body.fotos #navegacao a#fotos {
     background: #de003e;
     cursor: text;
 }
+
+/* Configuação de Layout de Três Colunas */
+#conteudo{
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+#primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+#secundario{
+    width: 270px;
+    float: left;
+}
+#lateral{
+    width: 180px;
+    margin: 0 0 20px -750px;
+    float: left;
+}
+#container-rodape{
+    width: 100%;
+    clear: both;
+    background: #294c71;
+    padding: 20px;
+}
+#rodape{
+    width: 750px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+}
+#github{
+    text-decoration: none;
+    color:#112841
+}
+#github:hover{
+    color:#fff
+}
